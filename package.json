@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": ". ./config/development/env.sh && meteor --settings ./config/development/settings.json -p $MPORT",
+    "deploy-prod": "cd ./config/production; mupx deploy",
+    "deploy-prod-setup": "cd ./config/production; mupx setup"
+  },
+  "dependencies": {
+    "lodash": "^4.14.0",
+    "moment": "^2.14.1"
+  }
+}

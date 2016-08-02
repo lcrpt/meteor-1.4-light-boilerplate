@@ -1,0 +1,34 @@
+meteor-base
+ecmascript
+es5-shim
+check
+tracker
+underscore
+standard-minifier-js
+
+# ui
+blaze-html-templates
+reactive-var
+themeteorchef:bert
+jquery
+less
+twbs:bootstrap
+momentjs:moment
+
+# data
+mongo
+aldeed:simple-schema
+aldeed:collection2
+dburles:collection-helpers
+
+#server
+mdg:validated-method
+
+# routing
+kadira:flow-router@2.11.0
+kadira:blaze-layout
+arillo:flow-router-helpers
+zimme:active-route
+
+# production
+#nigtmere:infinite-scroll

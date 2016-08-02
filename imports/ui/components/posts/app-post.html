@@ -1,0 +1,8 @@
+<template name="App_post">
+  <tr>
+    <td>{{post.title}}</td>
+    <td>{{post.description}}</td>
+    <td>{{dateFromNow post.createdAt}}</td>
+    <th><button class="js-post-delete btn btn-xs btn-danger btn-block"><i class="fa fa-trash-o" aria-hidden="true"></i></button></th>
+  </tr>
+</template>
